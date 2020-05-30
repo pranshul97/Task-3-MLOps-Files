@@ -7,4 +7,4 @@ RUN yum install python3-devel -y
 RUN pip3 install opencv-python
 RUN pip3 install keras
 RUN pip3 install pandas
-PUN pip3 install tensorflow
+RUN pip3 install tensorflow
