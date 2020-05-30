@@ -1,6 +1,6 @@
 # MLOps Pipeline for Automated and better Training of ML Models 
 MLops is the approach in which we combine the capabilities of ML(Machine Learning) and DevOps to create more automated and intelligent Machine Learning pipelines.In this project we are using the capabilities of MLOps to create better trained ML(Machine Learning) models by integrating ML with Git and Jenkins.
-For more detailed desription please refer to following article: https://medium.com/@pranshul.tiwari97/mlops-pipeline-for-automated-better-training-of-ml-models-6c82056d09f7
+For more detailed desription please refer to following article: [Description of project](https://medium.com/@pranshul.tiwari97/mlops-pipeline-for-automated-better-training-of-ml-models-6c82056d09f7)
 
 ## Getting Started
 Follow these instructions to implement this project:
@@ -30,6 +30,9 @@ In this project 3 main objectives to be achieved are:
  For Example: If the code is of ANN format then container working on kerimage will be created by job-2.
  ```
 4) Now job-3 will be triggered and in this firstly the accuracy of developer's code will be calculated firstly and then a loop will run in which at each iteration this code will be tweaked and accuracy will be calculated. In the case of ann and cnn following tweakings will be done:
+  ```
+  Files responsible for making tweaks in ANN and CNN code are tweaker.py and TweakerCNN.py respectively.
+  ```
  * In the first iteration in ANN number of dense layers will be insreased and in CNN number of CRP layers are being increased.
  * In the second iteration number of epochs are being changed in both CNN & ANN.
  * In the third iteration in ANN 2 more hidden layers are being increased and in CNN number of layers in FC layers are being increased.
