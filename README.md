@@ -30,10 +30,10 @@ In this project 3 main objectives to be achieved are:
  For Example: If the code is of ANN format then container working on kerimage will be created by job-2.
  ```
 4) Now job-3 will be triggered and in this firstly the accuracy of developer's code will be calculated firstly and then a loop will run in which at each iteration this code will be tweaked and accuracy will be calculated. In the case of ann and cnn following tweakings will be done:
- a) In the first iteration in ANN number of dense layers will be insreased and in CNN number of CRP layers are being increased.
- b) In the second iteration number of epochs are being changed in both CNN & ANN.
- c) In the third iteration in ANN 2 more hidden layers are being increased and in CNN number of layers in FC layers are being increased.
- d) In the fourth iteration in ANN number of neurons are being decreased and in CNN number of neurons in both CRP layers and FC layers are being reduced.
- e) In each iteraton accuracy is calculated after tweaking the model and if accuracy is found to be greater than 80% then loop is breaked and a mail is sent to admin stating that model has been trained.
- f) This tweaking continues until this level of accuracy is reached.
+ * In the first iteration in ANN number of dense layers will be insreased and in CNN number of CRP layers are being increased.
+ * In the second iteration number of epochs are being changed in both CNN & ANN.
+ * In the third iteration in ANN 2 more hidden layers are being increased and in CNN number of layers in FC layers are being increased.
+ * In the fourth iteration in ANN number of neurons are being decreased and in CNN number of neurons in both CRP layers and FC layers      are being reduced.
+ * In each iteraton accuracy is calculated after tweaking the model and if accuracy is found to be greater than 80% then loop is breaked    and a mail is sent to admin stating that model has been trained.
+ * This tweaking continues until this level of accuracy is reached.
 5) In tha case of KMeans the number of clusters which can be formed by a model is being calculated and for doing this WCSS method is used which calculates the WCSS value at different values of number of clusters and the value at which change in wcss is most(i.e it decreases drastically) then that value is considered to be the optimal number of clusters which can be created from that dataset and this point is called Elbow point.
