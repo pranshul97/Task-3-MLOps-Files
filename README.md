@@ -15,5 +15,10 @@ Follow these instructions to implement this project:
   ```
   Command to create image: docker build -t <name of image> .
   ```
-    In this case name of image in kerimage for image containing Keras and kmeansimage for image having scikit learn for running KMeans code.
-3) In jenkins create different jobs and create scripts as specified in the article.
+   In this case name of image in kerimage for image containing Keras and kmeansimage for image having scikit learn for running KMeans code.
+3) In jenkins create different jobs and use shell scripts as specified in the article.
+## Description
+In this project 3 main objectives to be achieved are:
+1) Train and increase accuracy of ANN model by doing necessary tweakings in it.
+2) Train and increase accuracy of CNN model by doing necessary tweakings in it.
+3) Create better clusters in KMeans by using WCSS method.
