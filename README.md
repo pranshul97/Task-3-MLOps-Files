@@ -15,5 +15,5 @@ Follow these instructions to implement this project:
   ```
   Command to create image: docker build -t <name of image> .
   ```
-  In this case name of image in kerimage for image containing Keras and kmeansimage for image having scikit learn for running KMeans code.
+    In this case name of image in kerimage for image containing Keras and kmeansimage for image having scikit learn for running KMeans code.
 3) In jenkins create different jobs and create scripts as specified in the article.
